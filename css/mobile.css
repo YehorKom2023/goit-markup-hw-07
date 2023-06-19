@@ -137,3 +137,55 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* Team */
+.team {
+  display: none;
+}
+.team-mobile {
+  width: 428px;
+  height: 2232px;
+  left: 0px;
+  top: 1318px;
+  background: #f4f4fd;
+}
+.team-cont-mobile {
+  display: flexbox;
+}
+.subtitle-mobile {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+
+  position: absolute;
+  width: 264px;
+  height: 1928px;
+  left: 82px;
+  top: 1526px;
+}
+.team-item-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  width: 264px;
+  height: 428px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
