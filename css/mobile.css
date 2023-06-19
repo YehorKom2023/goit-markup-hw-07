@@ -42,6 +42,7 @@
   display: none;
 }
 /* Main */
+/* Hero */
 .hero {
   display: none;
 }
@@ -79,4 +80,46 @@
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-bottom: 208px;
+}
+/* About */
+.about {
+  display: none;
+}
+.about-mobile {
+}
+.about-cont-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 72px;
+
+  position: absolute;
+  width: 396px;
+  height: 624px;
+  left: 16px;
+  top: 598px;
+}
+.about-list-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 396px;
+  height: 96px;
+}
+.about-item-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 396px;
+  height: 96px;
+}
+.about-title-mobile {
 }
