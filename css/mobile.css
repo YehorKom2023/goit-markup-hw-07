@@ -106,7 +106,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 8px;
+  gap: 72px;
 
   width: 396px;
   height: 96px;
@@ -160,6 +160,8 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  padding-top: 96px;
 }
 .team-list-mobile {
   display: flex;
@@ -167,12 +169,6 @@
   align-items: center;
   padding: 0px;
   gap: 72px;
-
-  position: absolute;
-  width: 264px;
-  height: 1928px;
-  left: 82px;
-  top: 1526px;
 }
 .team-item-mobile {
   display: flex;
