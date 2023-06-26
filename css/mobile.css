@@ -1,4 +1,10 @@
 /* Header */
+.header {
+  width: 428px;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .hedcontainer {
   padding: 0 15px;
   width: 100%;
@@ -20,20 +26,21 @@
   color: #4d5ae5;
   margin-right: 76px;
   height: 24px;
-  left: 16px;
+  margin-left: 16px;
   top: 24px;
 }
 .span {
   color: #2e2f42;
 }
 .mob-header-btn {
-  display: block;
+  /* display: block; */
   cursor: pointer;
   border: none;
   width: 32px;
   height: 22px;
-  left: 380px;
+  /* left: 380px; */
   top: 24px;
+  margin-left: auto;
 }
 .header-nav {
   display: none;
@@ -50,7 +57,7 @@
 .heromobile {
   background: #2e2f42;
   padding: 0 15px;
-  width: 100%;
+  /* width: 100%; */
   position: absolute;
   width: 428px;
   height: 432px;
