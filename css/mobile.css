@@ -57,7 +57,7 @@
   background: #2e2f42;
   padding: 0 15px;
   /* width: 100%; */
-  position: absolute;
+
   width: 428px;
   height: 432px;
 }
@@ -107,8 +107,6 @@
   position: absolute;
   width: 396px;
   height: 624px;
-  left: 16px;
-  top: 598px;
 }
 .about-list-mobile {
   display: flex;
@@ -155,8 +153,7 @@
   width: 428px;
   height: 2232px;
   left: 0px;
-  top: 1318px;
-  position: absolute;
+
   background: #f4f4fd;
   gap: 96px;
 }
@@ -256,11 +253,8 @@
   display: none;
 }
 .customers-mobile {
-  position: absolute;
   width: 428px;
   height: 520px;
-  left: 16px;
-  top: 3646px;
 }
 .customers-cont-mobile {
   display: inline-block;
